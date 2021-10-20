@@ -13,6 +13,7 @@
 		F39C52A0271F1BE100B20892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39C529E271F1BE100B20892 /* Main.storyboard */; };
 		F39C52A2271F1BE200B20892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39C52A1271F1BE200B20892 /* Assets.xcassets */; };
 		F39C52A5271F1BE200B20892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39C52A3271F1BE200B20892 /* LaunchScreen.storyboard */; };
+		F39C52AD271F2B8700B20892 /* CocoaControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C52AC271F2B8700B20892 /* CocoaControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F39C52A1271F1BE200B20892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F39C52A4271F1BE200B20892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F39C52A6271F1BE200B20892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39C52AC271F2B8700B20892 /* CocoaControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F39C529A271F1BE100B20892 /* SceneDelegate.swift */,
 				F39C529C271F1BE100B20892 /* ViewController.swift */,
 				F39C529E271F1BE100B20892 /* Main.storyboard */,
+				F39C52AC271F2B8700B20892 /* CocoaControllerViewController.swift */,
 				F39C52A1271F1BE200B20892 /* Assets.xcassets */,
 				F39C52A3271F1BE200B20892 /* LaunchScreen.storyboard */,
 				F39C52A6271F1BE200B20892 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				F39C529D271F1BE100B20892 /* ViewController.swift in Sources */,
 				F39C5299271F1BE100B20892 /* AppDelegate.swift in Sources */,
+				F39C52AD271F2B8700B20892 /* CocoaControllerViewController.swift in Sources */,
 				F39C529B271F1BE100B20892 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
