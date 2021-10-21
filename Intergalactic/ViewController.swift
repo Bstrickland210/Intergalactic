@@ -27,5 +27,25 @@ class ViewController: UIViewController {
            view.addSubview(imageView)
            self.view.sendSubviewToBack(imageView)
        }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let nextViewController = segue.destination as! CocoaControllerViewController
+        
+        let randomNumber = Int.random(in: 1...3)
+        
+        if segue.identifier == "redSegue"
+        {
+            nextViewController.starName = "RedDwarf\(randomNumber)"
+        }
+        else
+        {
+            nextViewController.starName = "BlueDwarf\(randomNumber)"
+        }
+    }
+   
+    
+      
+    
 }
 

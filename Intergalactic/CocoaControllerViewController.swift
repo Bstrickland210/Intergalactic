@@ -8,14 +8,23 @@
 import UIKit
 
 class CocoaControllerViewController: UIViewController {
+    
 
+    @IBOutlet weak var starImage: UIImageView!
+    
+    var starName = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        
+        starImage.image = UIImage (named: starName )
+        
+        
     }
     
-
     /*
     // MARK: - Navigation
 
